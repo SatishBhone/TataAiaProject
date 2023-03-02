@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-02T15:01:26 IST" name="Suite" finished-at="2023-03-02T15:01:49 IST" duration-ms="23311">
+    <groups>
+    </groups>
+    <test started-at="2023-03-02T15:01:26 IST" name="Test" finished-at="2023-03-02T15:01:49 IST" duration-ms="23311">
+      <class name="testClasses.TestNgClass">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:testClasses.TestNgClass@13c9d689]" started-at="2023-03-02T15:01:26 IST" name="beforeClass" finished-at="2023-03-02T15:01:46 IST" duration-ms="20261" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.TestNgClass@13c9d689]" started-at="2023-03-02T15:01:46 IST" name="beforeMethod" finished-at="2023-03-02T15:01:46 IST" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyBrowserisLaunchSuccessfully()[pri:0, instance:testClasses.TestNgClass@13c9d689]" started-at="2023-03-02T15:01:46 IST" name="VerifyBrowserisLaunchSuccessfully" finished-at="2023-03-02T15:01:48 IST" duration-ms="1968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyBrowserisLaunchSuccessfully -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.TestNgClass@13c9d689]" started-at="2023-03-02T15:01:48 IST" name="afterMethod" finished-at="2023-03-02T15:01:49 IST" duration-ms="518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testClasses.TestNgClass@13c9d689]" started-at="2023-03-02T15:01:49 IST" name="afterClass" finished-at="2023-03-02T15:01:49 IST" duration-ms="462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testClasses.TestNgClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
