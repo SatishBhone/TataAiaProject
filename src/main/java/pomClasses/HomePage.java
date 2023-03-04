@@ -22,16 +22,16 @@ public class HomePage extends UtilityClass{
 	@FindBy(xpath="//input[@id='createLeadneedformmobileNo']")
 	private WebElement MobNumbr;
 	
-	@FindBy(xpath="//div[@class='selectBox']")
+	@FindBy(xpath="//div[@class='selectBox']")  //Box
 	private WebElement selectplan;
 	
-	@FindBy(xpath="//button[@id='getCallBacksbtnabc']")
+	@FindBy(xpath="//button[@id='getCallBacksbtnabc']") //abc
 	private WebElement getCallbackBtn;
 	
      public HomePage(WebDriver driver) 
      {
     	 PageFactory.initElements(driver, this);
-    	 this.driver=driver; 
+    	 this.driver = driver; 
      }
      
      public void putFullName() 

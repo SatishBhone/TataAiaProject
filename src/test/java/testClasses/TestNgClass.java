@@ -8,11 +8,11 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
 import baseClasses.BaseClass1;
-import listner.ListenerTestNg;
+
 import pomClasses.HomePage;
 
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Listeners;
+
 import org.testng.annotations.Parameters;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
@@ -21,7 +21,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.AfterClass;
 
-@Listeners(ListenerTestNg.class)
+
 public class TestNgClass {
 	
   WebDriver driver;
@@ -58,6 +58,7 @@ public class TestNgClass {
 	  hp.selectPlan();
 	  hp.clickOnGetcallBtn();
   }
+  
   @AfterMethod
   public void afterMethod()
   {   
@@ -79,7 +80,7 @@ public class TestNgClass {
   public void afterClass() 
   {    // Close browser and flush Extent Report
 	  
-	  //driver.quit();
+	  driver.quit();
 	  report.flush();
 	  
   }

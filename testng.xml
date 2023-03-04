@@ -4,7 +4,8 @@
   <test  name="Test">
   <parameter name="browser" value="chrome"></parameter>
     <classes>
-      <class name="testClasses.TestNgClass"/>
+        <class name="testClasses.TestNgClass"/>
+      <class name="testClasses.VerifyUserRegisterSuccessfully"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
